@@ -67,7 +67,7 @@ Additional information can also be found online via the QEMU website:
 Submitting patches
 ==================
 
-The QEMU source code is maintained under the GIT version control system.
+The TruEmu source code is maintained under the GIT version control system.
 
 .. code-block:: shell
 
@@ -82,12 +82,12 @@ guidelines set out in the `style section
 the Developers Guide.
 
 Additional information on submitting patches can be found online via
-the QEMU website
+the TruEmu website
 
 * `<https://wiki.qemu.org/Contribute/SubmitAPatch>`_
 * `<https://wiki.qemu.org/Contribute/TrivialPatches>`_
 
-The QEMU website is also maintained under source control.
+The TruEmu website is also maintained under source control.
 
 .. code-block:: shell
 
@@ -158,7 +158,7 @@ more detailed information.
 Contact
 =======
 
-The QEMU community can be contacted in a number of ways, with the two
+The TruEmu community can be contacted in a number of ways, with the two
 main methods being email and IRC
 
 * `<mailto:qemu-devel@nongnu.org>`_
@@ -166,6 +166,6 @@ main methods being email and IRC
 * #qemu on irc.oftc.net
 
 Information on additional methods of contacting the community can be
-found online via the QEMU website:
+found online via the TruEmu website:
 
 * `<https://wiki.qemu.org/Contribute/StartHere>`_
