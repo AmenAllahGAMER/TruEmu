@@ -1,33 +1,33 @@
 ===========
-QEMU README
+TruEmu README
 ===========
 
-QEMU is a generic and open source machine & userspace emulator and
-virtualizer.
+TruEmu is a generic and open source machine & userspace emulator and
+virtualizer Which emulates Many platforms such as iOS.
 
-QEMU is capable of emulating a complete machine in software without any
+TruEmu is capable of emulating a complete machine in software without any
 need for hardware virtualization support. By using dynamic translation,
-it achieves very good performance. QEMU can also integrate with the Xen
+it achieves very good performance. TruEmu can also integrate with the Xen
 and KVM hypervisors to provide emulated hardware while allowing the
-hypervisor to manage the CPU. With hypervisor support, QEMU can achieve
-near native performance for CPUs. When QEMU emulates CPUs directly it is
+hypervisor to manage the CPU. With hypervisor support, TruEmu can achieve
+near native performance for CPUs. When TruEmu emulates CPUs directly it is
 capable of running operating systems made for one machine (e.g. an ARMv7
 board) on a different machine (e.g. an x86_64 PC board).
 
-QEMU is also capable of providing userspace API virtualization for Linux
+TruEmu is also capable of providing userspace API virtualization for Linux
 and BSD kernel interfaces. This allows binaries compiled against one
 architecture ABI (e.g. the Linux PPC64 ABI) to be run on a host using a
 different architecture ABI (e.g. the Linux x86_64 ABI). This does not
 involve any hardware emulation, simply CPU and syscall emulation.
 
-QEMU aims to fit into a variety of use cases. It can be invoked directly
+TruEmu aims to fit into a variety of use cases. It can be invoked directly
 by users wishing to have full control over its behaviour and settings.
 It also aims to facilitate integration into higher level management
 layers, by providing a stable command line interface and monitor API.
 It is commonly invoked indirectly via the libvirt library when using
 open source applications such as oVirt, OpenStack and virt-manager.
 
-QEMU as a whole is released under the GNU General Public License,
+TruEmu as a whole is released under the GNU General Public License,
 version 2. For full licensing details, consult the LICENSE file.
 
 
@@ -45,9 +45,9 @@ folder in the source tree, and is built by `Sphinx
 Building
 ========
 
-QEMU is multi-platform software intended to be buildable on all modern
+TruEmu is multi-platform software intended to be buildable on all modern
 Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
-of other UNIX targets. The simple steps to build QEMU are:
+of other UNIX targets. The simple steps to build TruEmu are:
 
 
 .. code-block:: shell
@@ -131,13 +131,13 @@ will be tagged as my-feature-v2.
 Bug reporting
 =============
 
-The QEMU project uses GitLab issues to track bugs. Bugs
-found when running code built from QEMU git or upstream released sources
+The TruEmu project uses GitLab issues to track bugs. Bugs
+found when running code built from TruEmu git or upstream released sources
 should be reported via:
 
 * `<https://gitlab.com/qemu-project/qemu/-/issues>`_
 
-If using QEMU via an operating system vendor pre-built binary package, it
+If using TruEmu via an operating system vendor pre-built binary package, it
 is preferable to report bugs to the vendor's own bug tracker first. If
 the bug is also known to affect latest upstream code, it can also be
 reported via GitLab.
